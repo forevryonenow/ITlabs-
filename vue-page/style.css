@@ -1,0 +1,88 @@
+:root{
+    --text-color: #2B2A29;
+    --secondary-text-color: #514F4D;
+    --white: #ffffff;
+    --background-color: #CF3337;
+
+}
+body{
+    background-image: url(back-img/back-image.png);
+    margin: 0;  
+}
+/* шапка */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.logo{
+    width: 86.44px;
+    height: 11,25rem;
+}
+.text{
+    margin-top: 6,625rem;
+    margin-left: 3rem;
+}
+.text-1{
+    margin-bottom: 0;
+    font-size: 4rem;
+    margin-top: 1.625rem;
+    color: var(--text-color);
+}
+.text-2{
+    margin-top: 0;
+    font-size: 58px;
+    color: var(--secondary-text-color);
+    margin-bottom: 1.625rem;
+}
+/* блок с кнопками и текстом */
+.btn-wall{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    margin-left: 5rem;
+    margin-top: 52px;
+}
+.btn-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--background-color);
+    width: 280px;
+    height: 69px;
+    font-size: 18px;
+}
+
+.btn-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 1px solid var(--secondary-text-color);
+    width: 280px;
+    height: 69px;
+    font-size: 18ox;
+}
+.text-wall{
+    font-size: 40px;
+    color: var(--secondary-text-color);
+}
+/* стиль для фотокарточек */
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(1,428px);
+    grid-template-rows: repeat(1,571px);
+    margin-left: 5rem;
+}
+.hero-name{
+    position: relative;
+    bottom: 110px;
+    font-size: 28px;
+    color: var(--white);
+    margin-left: 24px;
+    font-style: italic;
+}
